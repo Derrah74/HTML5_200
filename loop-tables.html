@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+
+<p><strong>Loop 1 ...</strong></p>
+<p>
+ &lt;script type="text/javascript"&gt;<br />
+<br />
+var text = "";<br />
+var x = 0;<br />
+<br />
+for (var x = 0; x <= 17; x = x + 2) {<br />
+  console.log("x is: " + x);<br />
+  x += 1<br />
+}<br />
+<br />
+console.log(2 * x + 7);<br />
+<br />  
+&lt;/script&gt;<br />
+<br />
+ 
+// returns x is: 0<br />
+// returns x is: 3<br />
+// returns x is: 6<br />
+// returns x is: 9<br />
+// returns x is: 12<br />
+// returns x is: 15<br />
+
+<p><strong>Loop 2 ...</strong></p>
+<p>
+ &lt;script type="text/javascript"&gt;<br />
+<br />
+var alpha = 'mpeuorwr';<br />
+var s1 = '';<br />
+var s2 = '';<br />
+for (var index = 0; index < alpha.length; index++) {<br />
+  if (index % 2 == 0) {<br />
+    s1 = s1 + alpha.substr(index, 1);<br />
+  } else {<br />
+    s2 = s2 + alpha.substr(index, 1);<br />
+  }<br />
+}<br />
+<br />
+console.log(s1 + s2);<br />
+<br />
+ &lt;/script&gt;<br />
+<br />
+// returns meowpurr<br />
+
+</body>
+</html>

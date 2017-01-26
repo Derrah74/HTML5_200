@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+<style>
+  body {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+    font-size:12px;
+  } 
+
+  form {
+    border: 1px solid #b09470;
+    background-color: antiquewhite;
+    padding: 10px;
+  }
+  
+input {
+  border: 1px solid #b09470;
+}
+  
+select {
+  border: 1px solid #b09470;
+}
+  
+ textarea {
+  border: 1px solid #b09470;
+}
+  
+input[type=submit] {
+  width : 150px;
+  border: 1px solid #cccccc;
+  color: #000000;
+  border-radius: 4;
+  -webkit-appearance: none;
+}
+</style>
+
+<body>
+
+  <p><strong>Why Responsive...</strong> Let's see Responsive Design why should we do it? Its easy to just say its important but technically in today’s era of the world-wide web there are all different viewing sizes out there between browsers, tablets, phones and more. The variables of what your site is being viewed on becomes very important. Is it a monitor with a high resolution of 1920 x 1080 or an older phone with a small 320 pixel vertical screen? Once again, the variables of the layouts between the two creates a whole lot of visual and user related issues.  Using a responsive design that will allow flexibility to your elements whether moving objects from a side by side double column down to a stacked single column or resizing a banner image to fit 100% width at all times allows the best version of your site to be seen.  Getting your site fluid in a responsive design is just the cleanest way to code these days and gets the best user experience.</p>
+  
+  <p><strong>Learn more, ask a question...</strong></p>
+  
+  <p>
+  <form>
+    <label>First Name:*
+      <input type="text" name="first-name" required>
+    </label>
+    <label>Last Name:*
+      <input type="text" name="last-name" required>
+    </label>
+    <label>Email:*
+      <input type="text" name="email" required>
+    </label>
+    </p>
+    <p>
+    Question(s):<br />
+    <textarea name="comments" rows=”5” cols="90"></textarea></p>
+    <p>
+     Do you like responsive design (1 is low, 5 is high):
+      <select name="numbers">
+        <option value="">Pick one</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+     <p>
+     <p>
+     Have you coded for responsive design before?
+    <input name="before" type="radio" value="yes">yes</option>
+    <input name="before" type="radio" value="no">no</option>
+    <input name="before" type="radio" value="ummmm">ummmm</option>
+     <p>
+    <input type="submit" value="Send your info" name="submit">
+    </p>
+  </form>
+  
+<p>*Required field</p>
+
+</body>
+</html>
